@@ -1,0 +1,48 @@
+Types of Enterprise Application:
+--------------------------------
+
+Java
+    --> Standalone Application
+	--> CUI Application
+	--> GUI Application
+
+    --> Enterprise Application
+	--> Web Application
+	--> Distributed Application
+
+
+Q) What is the difference between Web-Application & Distributed Application?
+Ans:
+
+1.0) Web Application is a client-server application, where in web application the complete application logic will be distributed at server machine only.
+1.1) Distributed Application is a client-server application, where in distributed applications the complete application logic will be distributed over both client machine and 
+     server machine.
+
+2.0) In case of web applications, client is fixed, that is browser.
+2.1) In case of distributed applications, client is not fixed it may be a core java program with main() method, A GUI application with actionPerformed() method, a Servlet, a JSP page,
+     Frameworks applications like Structs, JSF,...
+
+3.0) If we want to prepare web applications we have to use a seperate set of tech called as Web tech.
+	EX: CGI, Servlets, JSPs, JSTL, EL,...
+3.1) If we want to prepare distributed applications, we need a set of tech called as distributed tech.
+
+4.0) The main intension of web applications is to generate dynamic response from server.
+4.1) The main intention of distributed applications is to establish communication between local machine and remote machine and to generate remote services from remote machine.
+
+5.0) Web applications are executed by both web servers and application servers.
+5.1) Distributed applications are executed by only application servers.
+
+6.0) Web applications is the collection of web components like Servlets, JSPs,..., Which are executed by the web containers like servlet container and JSP container,...
+6.1) Distributed applications is the collection of EJB components, which are executed by EJB container.
+
+
+
+
+
+
+To Prepare Web Applications, SUN Microsystems has given two design models.
+	1. Model-I Arch		(MVC1) also called (JSP Fron Arch & Page Centric Arch)
+	2. Model-II Arch	(MVC2)
+
+
+

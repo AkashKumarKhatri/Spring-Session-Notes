@@ -1,0 +1,47 @@
+Spring:
+-------
+-> Spring is an application framework. 
+-> Spring is a modularization framework.
+
+Fundamental Modules:
+--------------------
+	1. Core Module
+	   -> Mainly focuses on IOC containers
+	   -> Beans Creation & Lifecycle
+	   -> Entire framework is running on top of the Core Module
+	   -> Two types of container are exist in spring Core Module
+		i) BeanFactory			(Outdated)
+	       ii) ApplicationContext		(New One with extra features)
+	
+	2. JDBC/DAO Module
+		JdbcTemplate
+
+	3. Spring ORM Module
+		HibernateTemplate
+	
+	4. Spring AOP Module
+		
+	5. Spring Transaction Module
+	
+	6. Spring Web Module
+		Web (JSF or Structs) & Web MVC
+	
+	7. Spring Security Module
+
+
+1. MAVEN
+2. LOG4J
+3. JUNIT
+
+
+Advance Modules:
+----------------
+	1. Spring Boot
+	2. Spring JPA
+	3. Spring Data JPA
+	4. Spring Cloud
+	5. Spring Microservices
+	6. Spring Social
+	7. Spring Batch
+	...
+	...	 

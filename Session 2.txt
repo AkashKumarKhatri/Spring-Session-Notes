@@ -1,0 +1,33 @@
+Introduction:
+-------------
+
+Q: What is the requirment to go for the frameworks?
+Ans: To prepare enterprise application. (To simplify application development)
+
+
+Q: What is enterprise?
+Ans: It is Business Organization, it is a group of organizations running under single label.
+Example: TATA, Reliance,...
+
+Q: What is enterprise application?
+Ans: It is a Software Application designed for an enterprise, it will simplify the internal business processing.
+
+
+1. User Interface Layer / Presentation Layer
+2. Business Processing Layer
+3. Data Storage and Access Layer / Persistence Layer
+
+
+
+
+1. User Interface Layer / Presentation Layer
+	
+	i) Starting point to access our application
+       ii) It will improve look and feel to the enterprise application.
+      iii) It will take data from users inorders to submit to enterprise application.
+       iv) To perform client side data validations with Javascript functions.
+	v) To send different types of request from client to server.
+       vi) Presentation Logic --> AWT, Swing , Java FX, Html, JSP,..., Structs, JSF,.... 
+
+
+
