@@ -1,7 +1,7 @@
 2. Business Processing Layer
 
 	i) It is Heart of the Enterprise Applications, It can be used to define and execute all Business rules and regulations 
-	   which clients clients exactly required.
+	   which clients exactly required.
        ii) To prepare this layer we have to use a seperate logic called as Business Logic.
       iii) To prepare Business Logic, we have to use a set of Tech like Java Beans, Servlets, EJBs,....
 
@@ -61,6 +61,7 @@ System Architecture:
 ------------
 	--> In 3-Tier Arch, we will provide the complete enterprise application in three machines.
 	
-	1. In Tier-1 machine we will use user interface layer, in Tier-2 machine layer we will use Business Processing Layer, in Tier-3 machine layer we will use data storage and access layer.
+	1. In Tier-1 machine we will use user interface layer, in Tier-2 machine layer we will use Business Processing Layer, in Tier-3 machine layer we will use data 
+	   storage and access layer.
 	
 

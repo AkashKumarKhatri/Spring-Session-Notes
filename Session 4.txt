@@ -41,8 +41,8 @@ Ans:
 
 
 To Prepare Web Applications, SUN Microsystems has given two design models.
-	1. Model-I Arch		(MVC1) also called (JSP Fron Arch & Page Centric Arch)
-	2. Model-II Arch	(MVC2)
+	1. Model-I Arch		(MVC1) also called (JSP Front Arch & Page Centric Arch)
+	2. Model-II Arch	(MVC2) also called Servlet Front Arch & Servlet Centric Arch)
 
 
 
