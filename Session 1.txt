@@ -2,6 +2,9 @@ Spring:
 -------
 -> Spring is an application framework. 
 -> Spring is a modularization framework.
+-> Spring is a dependency injection framework to make java application loosely coupled.
+-> Spring framework makes the easy development of JavaEE application.
+-> It was developed by Rod Johnson in 2003.
 
 Fundamental Modules:
 --------------------
