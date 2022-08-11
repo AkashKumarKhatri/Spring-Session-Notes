@@ -6,6 +6,8 @@
 
 MVC Arch and its Rules and Regulations:
 ---------------------------------------
+	--> MVC is a design pattern, it will provide standard template to prepare web applications.
+	--> MVC is a design pattern, it will define standard flow of execution for the web application.
 
 	1. In MVC based applications, controller must be a Servlet, a set of JSP pages must be View part.
 	2. In MVC based web applications, only one Controller must be provided.

@@ -1,0 +1,119 @@
+Framework:
+----------
+
+	--> Framework is Pre-Fabricated software components that programmer can use, share and customise inorder to simplify Application development.
+	--> Framework is semi implemented application, it will provide very good environment to prepare enterprise applications as per developers convenience.
+	--> Framework is the collection of tools and APIs, it will provide very good environment to prepare enterprise application in simplified manner.
+
+
+Advantages of Framework:
+------------------------
+
+	--> Frameworks will provide standard template to design applications.
+	--> Frameworks are providing Standard flow of execution between components.
+	--> Frameworks are allowing parallel development.
+	--> Frameworks are able to reduce development time.
+	--> Frameworks are able to reduce development cost.
+	--> Frameworks are able to improve productivity.
+
+
+Types of Frameworks:
+--------------------
+
+1. Web Frameworks.
+2. Application Framework.
+
+
+Q) What is the difference between Web Frameworks and Application Frameworks?
+
+Ans:
+---
+
+Web Frameworks will provide very good enviroment to prepare and execute web application only.
+EX: Struts, JSF, Xwork2
+
+Application Framework are able to provide very good enviroment to prepare and execute any type of JAVA, J2EE applications like standalone applications, 
+distributed applications, database related applications......
+EX: Spring Framework.
+
+
+
+Q) What are the differences between Struts, JSF and Spring Framework?
+
+Ans:
+---
+
+1.1) Struts and JSF are web Frameworks, Which are used to prepare only web applications.
+1.2) Spring Framework is an appliation framework, it will provide very good environment to prepare the application like STANSALONE APP, WEB APP, DISTRIBUTED APP,...
+
+2.1) Struts Framework is able to provide focus on only controller layer.
+2.2) JSF Framework is able to provide focus on only View Layer.
+2.3) Spring Framework is able to focus on all the layers of the enterprise application.
+
+3.1) Struts & JSF are designed mainly on MVC and its associated design patterns.
+3.2) Spring Framework's WEB MVC Module is only designed on the top of MVC design pattern.
+
+4.1) Struts and JSF are providing the generic services like I18N, Exception Handling, Data Validations,... but Struts and JSF are not providing default support for middleware 
+     services like JAAS, JNDI, JTA, Java Mail,...
+4.2) Spring Framework is able to provide support for the generic services like I18N, Exception Handling, Data Validations,... and the middleware services like JAAS, JNDI, 
+     JTA, Java Mail,...
+
+5.1) Struts and JSF are not modularized Frameworks, to prepare any simple application even we have to load the complete framework.
+5.2) Spring  Framework is modularized framework, to prepare any simple application it is not required to load the complete spring framework, it is sufficient to load 
+     the required modules.
+
+6.1) Struts and JSF are more API dependent, they are not following POJO/POJI kind of implementations.
+6.2) Spring Framework is less API dependent, it follow POJO/POJI kind of implementations.
+
+7.1) It is difficult to perform Debbuging and Testing over Structs and JSF applications.
+7.2) It is very simple to perform debugging and testing over spring applications.
+
+8.1) Struts and JSF are heavyweight Frameworks.
+8.2) Spring Framework is light weight.
+
+public ActionForward execute(ActionMapping, ActionForm, HttpServletRequest, HttpServletResponse) throws Exception {
+	-------------------------------------------------
+	-------------------------------------------------
+} 
+
+public void doLogin() {
+	-------------------------------------------------
+}
+
+
+9.1) Struts and JSF are not providing inbuilt support for integrating the explicit applications like EJB applications, Hibernate, Ajax Applications, JDBC Applications...
+9.1) Spring Framework has provided very good inbuilt support to integrate other tech applications like EJBs, JDBC, Hibernate, Structs app, JSF applications,....
+
+
+10.1) To prepare view part, struts and JSF are allowing the fundamental view tech like HTML, JSP,...
+10.2) Spring Framework is allowing the most advanced view teck like velocity, Freemarker,... to prepare view part.
+
+11.1) Struts and JSF are not having Aspect Orientation.
+11.2) Spring Framework is having Aspect Oriented Programing Support along with object orientation.
+
+12.1) Struts and JSF are not having Testing Support [Developer Level Testing]
+12.2) Spring Framework is proving Testing support by having Testing Module.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
