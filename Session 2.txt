@@ -13,14 +13,18 @@ Q: What is enterprise application?
 Ans: It is a Software Application designed for an enterprise, it will simplify the internal business processing.
 
 
-1. User Interface Layer / Presentation Layer
+
+Enterprise Application Layers:
+------------------------------
+
+1. User Interface / Presentation Layer
 2. Business Processing Layer
 3. Data Storage and Access Layer / Persistence Layer
 
 
 
 
-1. User Interface Layer / Presentation Layer
+1. User Interface / Presentation Layer
 	
 	i) Starting point to access our application
        ii) It will improve look and feel to the enterprise application.

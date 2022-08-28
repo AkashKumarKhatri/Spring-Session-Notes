@@ -1,0 +1,90 @@
+Spring Modules:
+---------------
+
+Spring 1.x
+-----------
+	1) Spring Core
+	2) Spring AOP
+	3) Spring DAO
+	4) Spring ORM
+	5) Spring Context
+	6) Spring WEB
+	7) Spring Web MVC
+
+Spring 2.x
+-----------
+	1) Spring Core
+	2) Spring AOP
+	3) Spring DAO
+	4) Spring ORM
+	5) Spring JEE
+	6) Spring WEB
+
+Spring 3.x
+-----------
+	1) Core Container
+		i) Beans
+	       ii) Core
+	      iii) Context
+	       iv) Expression Language
+	2) AOP (Aspect Oriented Programming)
+	3) Aspects
+	4) Instrumentations
+	5) Data Access And Integration
+		i) Transactions
+	       ii) JDBC
+	      iii) OXM (Object XML Mapping)
+	       iv) ORM
+	6) Web
+		i) Web
+	       ii) Portlet
+	      iii) Servlet
+	       iv) Structs
+	7) Test
+
+Spring 4.x
+-----------
+	1) Core Container
+		i) Beans
+	       ii) Core
+	      iii) Context
+	       iv) Expression Language
+	2) AOP (Aspect Oriented Programming)
+	3) Aspects
+	4) Instrumentations
+	5) Messaging
+	6) Data Access And Integration
+		i) Transactions
+	       ii) JDBC
+	      iii) OXM (Object XML Mapping)
+	       iv) ORM
+	7) Web
+		i) Web
+	       ii) Portlet
+	      iii) Servlet
+	       iv) Web Socket
+	8) Test
+
+Spring 5.x
+-----------
+	1) Core Container
+		i) Beans
+	       ii) Core
+	      iii) Context
+	       iv) Expression Language
+	2) AOP (Aspect Oriented Programming)
+	3) Aspects
+	4) Instrumentations
+	5) Messaging
+	6) Data Access And Integration
+		i) Transactions
+	       ii) JDBC
+	      iii) OXM (Object XML Mapping)
+	       iv) ORM
+	7) Web
+		i) Web
+	       ii) Portlet
+	      iii) Servlet
+	       iv) Web Socket
+
+

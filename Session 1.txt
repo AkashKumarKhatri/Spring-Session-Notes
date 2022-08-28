@@ -8,7 +8,7 @@ Spring:
 
 Fundamental Modules:
 --------------------
-	1. Core Module
+	1. Spring Core Module
 	   -> Mainly focuses on IOC containers
 	   -> Beans Creation & Lifecycle
 	   -> Entire framework is running on top of the Core Module
@@ -16,7 +16,7 @@ Fundamental Modules:
 		i) BeanFactory			(Outdated)
 	       ii) ApplicationContext		(New One with extra features)
 	
-	2. JDBC/DAO Module
+	2. Spring JDBC/DAO Module
 		JdbcTemplate
 
 	3. Spring ORM Module
