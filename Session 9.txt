@@ -1,0 +1,24 @@
+6. Prepare Test Application.
+
+	1. The main intension of Test Application is activate Containers from Spring Framework and allows to create Bean objects by getting beans details from Spring configuration file 
+	   and to use Bean objects in our application as per the requirement.
+	
+	2. There are two types of containers in Spring Framework.
+	   i) BeanFactory
+	  ii) ApplicationContext
+
+		-> ApplicationContext is an interface provided by Spring Framework and one its  implemention is "ClassPathXmlApplicationContext".
+
+	3. To create ApplicationContext container we have to use the following code.
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext");
+	  
+		a) ApplicationContext container will take name and location of the spring configuration file.
+		b) ApplicationContext container will load spring configuration file to memory.
+		c) ApplicationContext container will parse spring configuration file.
+		d) ApplicationContext container will read bean configuration details from spring configuration file.
+		e) ApplicationContext container will create bean class objects and maintain bean class objects.
+
+	4. Get Bean object from ApplicationContext container on the basis of id.
+	   public Object getBean(Spring id);
+	   HelloBean hb = (HelloBean) context.getBean("helloBean");

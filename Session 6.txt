@@ -44,7 +44,7 @@ Ans:
 ---
 
 1.1) Struts and JSF are web Frameworks, Which are used to prepare only web applications.
-1.2) Spring Framework is an appliation framework, it will provide very good environment to prepare the application like STANSALONE APP, WEB APP, DISTRIBUTED APP,...
+1.2) Spring Framework is an appliation framework, it will provide very good environment to prepare the application like STANDALONE APP, WEB APP, DISTRIBUTED APP,...
 
 2.1) Struts Framework is able to provide focus on only controller layer.
 2.2) JSF Framework is able to provide focus on only View Layer.
