@@ -1,0 +1,48 @@
+IOC Containers:
+---------------
+	=> The main intention of IOC containers is to create bean objects and to supply bean objects to spring application.
+
+	=> There are two types of IOC containers.
+		1. BeanFactory
+		2. ApplicationContact
+		
+	1. BeanFactory:
+	---------------
+		-> It is basic/fundamental container to create bean objects in spring framework.
+		-> It is providing the functionalities like creating bean objects and suppling bean objects to the spring applications, it is not providing the advanced features like I18N,
+		   Event Notification Model,.. in spring application.
+		-> BeanFactory is deprecated from Spring3.x version.
+		-> BeanFactory is represented by spring framework in the form of an interface "org.springframework.beans.factory.BeanFactory".
+		-> Spring Framework has provided an implementation class to BeanFactory interface in the form of "org.springframework.beans.factory.xml.XmlBeanFactory".
+		-> It is important to point that BeanFactory does not support the Annotation-based dependency Injection whereas ApplicationContext, a superset of BeanFactory does.
+		
+		1. Create Resource Object.
+		2. Create BeanFactory Object.
+		3. Get bean object from BeanFactory and access bussiness methods.
+	
+		1. Resource:
+		------------
+			-> To represent beans configuration details which we provided in spring configuration file then we have to use Resource object.
+			-> To represent Resource objects, Spring Framework has provided a predefined interface in the form of "org.springframework.core.io.Resource".
+			
+			-> Spring framework has provided predefined implementation classes for 'Resource' interface.
+			
+			1. org.springframework.core.io.ByteArrayResource
+			2. org.springframework.core.io.FileSystemResource
+			3. org.springframework.core.io.ClassPathResource
+			4. org.springframework.core.io.InputStreamResource
+			5. org.springframework.core.io.UrlResource
+			6. org.springframework.web.context.support.ServletContextResource
+			7. org.springframework.web.portlet.context.PortletContextResource
+			
+			Resource resource = new ClassPathResource("spring-config.xml");
+		
+		2. Create an BeanFactory object:
+		--------------------------------
+			BeanFactory bf = new XmlBeanFactory(resource);
+
+		3. Get bean object from BeanFactory and access bussiness methods.
+		-----------------------------------------------------------------
+			HelloBean hello = (HelloBean) bf.getBean("helloBean");
+
+		

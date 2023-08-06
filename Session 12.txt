@@ -1,0 +1,16 @@
+2. ApplicationContext:
+----------------------
+	-> ApplicationContext is an IOC container in spring framework, it will create bean objects and it will supply bean objects to the spring application.
+	-> ApplicationContext is child interface of to BeanFactory, it able to perform all the functionalities what BeanFactory performing and it will provide 
+	   the advanced features like I18N, Event Notification Model, ...
+	-> In spring framework ApplicationContext is represented in the form of a predefined interface "org.springframework.context.ApplicationContext" it is
+	   a child interface to "BeanFactory" interface.
+	-> Spring Framework has provided the following implemention classes for ApplicationContext interface.
+		
+	1. ClassPathXmlApplicationContext
+	2. FileSystemXmlApplicationContext
+	3. WebXmlApplicationContext
+	
+	ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+	
